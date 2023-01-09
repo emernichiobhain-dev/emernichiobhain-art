@@ -6,18 +6,21 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Emer Ní Chíobháin Art</title>
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title="Emer Ní Chíobháin" subtitle="artist, coder, maker" />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+        site under construction
         </p>
+        <a href="http://emernichiobhainart.weebly.com/" className="description">
+        see old portfolio website here
+        </a>
       </main>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
